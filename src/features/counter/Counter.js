@@ -16,6 +16,8 @@ export function Counter() {
   const [incrementAmount, setIncrementAmount] = useState('2');
 
   const incrementValue = Number(incrementAmount) || 0;
+  const decrementValue = Number(decrement) || 1;
+  console.log(decrementValue, "decrementValue");
 
   return (
     <div>
